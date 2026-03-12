@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Env (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build / cache
+.next/
+.vercel
+
+# OS
+.DS_Store
